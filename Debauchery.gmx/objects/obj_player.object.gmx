@@ -26,7 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>///Intializing Variables
-grav = .7;
+grav = .3;
 hspd = 0;
 vspd = 0;
 jumpspeed = 7;
