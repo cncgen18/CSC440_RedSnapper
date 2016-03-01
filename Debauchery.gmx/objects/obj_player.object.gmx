@@ -89,6 +89,10 @@ if (place_meeting(x, y + vspd, obj_room)){
     }
     vspd = 0;
 }
+
+if ( y &gt; 416 ){
+    room_goto(rm_gameover);
+}
 x += hspd;
 y += vspd;
 
