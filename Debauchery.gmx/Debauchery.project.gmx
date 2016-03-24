@@ -12,6 +12,7 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts"/>
   <fonts name="fonts">
     <font>fonts\fnt_gameover</font>
     <font>fonts\fnt_pause</font>
@@ -21,8 +22,10 @@
     <object>objects\obj_room</object>
     <object>objects\obj_pause</object>
     <object>objects\obj_gameover</object>
+    <object>objects\obj_title</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_title</room>
     <room>rooms\rm_test</room>
     <room>rooms\rm_gameover</room>
   </rooms>
