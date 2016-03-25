@@ -30,7 +30,7 @@
 menu[0] = "Start";
 menu[1] = "Exit Game";
 
-vertSpace = 64; // space between menu option
+vertSpace = 30; // space between menu option
 menuOp = 0; // where the cursor will start
 </string>
           </argument>
@@ -110,9 +110,8 @@ draw_set_color(c_black);
 
 var len;
 for (len = 0; len &lt; array_length_1d(menu); len++){
-    draw_text(x + vertSpace, y + (len * vertSpace), string(menu[len]));
+    draw_text(room_width / 2, (room_height / 2) + (len * vertSpace), string(menu[len]));
 }
-
 </string>
           </argument>
         </arguments>
