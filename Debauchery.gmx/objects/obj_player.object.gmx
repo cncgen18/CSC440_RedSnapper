@@ -31,6 +31,11 @@ hspd = 0;
 vspd = 0;
 jumpspeed = 10;
 movespeed = 4;
+
+if (global.chkpntroom == room){
+    x = global.chkpntx;
+    y = global.chkpnty;
+}
 </string>
           </argument>
         </arguments>
@@ -117,13 +122,22 @@ if (place_meeting(x, y + vspd, obj_room)){
 }
 
 if ( y &gt; 416 ){
-    room_goto(rm_gameover);
+    //room_goto(rm_gameover);
+    if (global.chkpntroom != 0){
+    room_goto(global.chkpntroom);
+    }
+
+    else{
+    room_restart();
+    }
 }
 
 if (key_dash){
     movespeed = 10;
     alarm[0] = room_speed / 2;
 }
+
+
 
 x += hspd;
 y += vspd;
