@@ -84,7 +84,7 @@ movespeed = 4;
           <argument>
             <kind>1</kind>
             <string>// attach pause to the player object.
-if (global.pause) {
+if (global.pause){
     exit;
 }
 
@@ -93,7 +93,7 @@ if (global.pause) {
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
 key_jump = keyboard_check_pressed(vk_space);
-key_dash = keyboard_check_pressed(vk_control);
+key_dash = keyboard_check_pressed(ord('X'));
 
 //react to inputs
 move = key_left + key_right;

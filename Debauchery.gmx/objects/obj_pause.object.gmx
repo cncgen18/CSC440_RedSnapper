@@ -65,7 +65,7 @@ if (global.pause){
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="27">
+    <event eventtype="9" enumb="17">
       <action>
         <libid>1</libid>
         <id>603</id>

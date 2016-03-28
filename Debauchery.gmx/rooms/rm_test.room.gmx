@@ -56,7 +56,6 @@
     <instance objName="obj_room" x="192" y="416" name="inst_D23CB242" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room" x="224" y="416" name="inst_02004476" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player" x="128" y="384" name="inst_5EA5E1BA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pause" x="320" y="192" name="inst_8A949FE0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room" x="96" y="416" name="inst_26F0E713" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room" x="64" y="416" name="inst_011169A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room" x="416" y="416" name="inst_3A5BDD02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

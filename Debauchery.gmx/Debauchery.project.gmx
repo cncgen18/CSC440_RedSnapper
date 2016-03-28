@@ -10,6 +10,8 @@
     <sprite>sprites\spr_main</sprite>
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_chkpnt</sprite>
+    <sprite>sprites\spr_logo</sprite>
+    <sprite>sprites\spr_title</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -24,6 +26,7 @@
     <object>objects\obj_gameover</object>
     <object>objects\obj_title</object>
     <object>objects\obj_checkpoint</object>
+    <object>objects\obj_logo</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
