@@ -12,6 +12,7 @@
     <sprite>sprites\spr_chkpnt</sprite>
     <sprite>sprites\spr_logo</sprite>
     <sprite>sprites\spr_title</sprite>
+    <sprite>sprites\spr_pause</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>

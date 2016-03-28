@@ -124,11 +124,11 @@ if (place_meeting(x, y + vspd, obj_room)){
 if ( y &gt; 416 ){
     //room_goto(rm_gameover);
     if (global.chkpntroom != 0){
-    room_goto(global.chkpntroom);
+        room_goto(global.chkpntroom);
     }
 
     else{
-    room_restart();
+        room_restart();
     }
 }
 
