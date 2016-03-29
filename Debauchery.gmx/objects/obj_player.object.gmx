@@ -121,8 +121,9 @@ if (place_meeting(x, y + vspd, obj_room)){
     vspd = 0;
 }
 
-if ( y &gt; 416 ){
+//if ( y &gt; 416 ){
     //room_goto(rm_gameover);
+    /*
     if (global.chkpntroom != 0){
         room_goto(global.chkpntroom);
     }
@@ -131,7 +132,7 @@ if ( y &gt; 416 ){
         room_restart();
     }
 }
-
+*/
 if (key_dash){
     movespeed = 10;
     alarm[0] = room_speed / 2;
@@ -165,7 +166,13 @@ y += vspd;
           <argument>
             <kind>1</kind>
             <string>// if the player object is outside of the room, goes to gameover.
-room_goto(rm_gameover);
+if (global.chkpntroom != 0){
+    room_goto(global.chkpntroom);
+}
+
+else{
+    room_restart();
+}
 </string>
           </argument>
         </arguments>
