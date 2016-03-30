@@ -51,19 +51,13 @@ global.pause = 0;
             <kind>1</kind>
             <string>key_restart = keyboard_check_pressed(ord("R"));
 key_reset = keyboard_check_pressed(ord("T"));
-key_checkpoint = keyboard_check_pressed(ord("Y"));
 
-if(global.pause){
-    if(key_restart){
-        room_restart();
-        global.pause = 0;
-    }
-    
+if(global.pause){    
     if (key_reset){
         game_restart();
     }
     
-    if(key_checkpoint){
+    if(key_restart){
         if (global.chkpntroom != 0){
             room_goto(global.chkpntroom);
             global.pause = 0;
