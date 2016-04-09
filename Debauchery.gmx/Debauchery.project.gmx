@@ -13,6 +13,7 @@
     <sprite>sprites\spr_logo</sprite>
     <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_pause</sprite>
+    <sprite>sprites\spr_chest</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -28,6 +29,8 @@
     <object>objects\obj_title</object>
     <object>objects\obj_checkpoint</object>
     <object>objects\obj_logo</object>
+    <object>objects\obj_chest</object>
+    <object>objects\obj_dasheffect</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
