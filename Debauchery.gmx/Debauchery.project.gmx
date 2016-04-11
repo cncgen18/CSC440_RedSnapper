@@ -14,6 +14,7 @@
     <sprite>sprites\spr_title</sprite>
     <sprite>sprites\spr_pause</sprite>
     <sprite>sprites\spr_chest</sprite>
+    <sprite>sprites\spr_spike</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -31,6 +32,7 @@
     <object>objects\obj_logo</object>
     <object>objects\obj_chest</object>
     <object>objects\obj_dasheffect</object>
+    <object>objects\obj_spike</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
