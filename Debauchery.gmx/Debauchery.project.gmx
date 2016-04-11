@@ -33,6 +33,7 @@
     <object>objects\obj_chest</object>
     <object>objects\obj_dasheffect</object>
     <object>objects\obj_spike</object>
+    <object>objects\obj_score</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_init</room>
