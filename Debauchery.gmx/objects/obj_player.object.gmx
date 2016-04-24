@@ -170,13 +170,7 @@ y += vspd;
           <argument>
             <kind>1</kind>
             <string>// if the player object touches a spike, goes to gameover.
-if (global.chkpntroom != 0){
-    room_goto(global.chkpntroom);
-}
-
-else{
-    room_restart();
-}
+room_goto(rm_gameover)
 </string>
           </argument>
         </arguments>
@@ -200,13 +194,7 @@ else{
           <argument>
             <kind>1</kind>
             <string>// if the player object is outside of the room, goes to gameover.
-if (global.chkpntroom != 0){
-    room_goto(global.chkpntroom);
-}
-
-else{
-    room_restart();
-}
+room_goto(rm_gameover);
 </string>
           </argument>
         </arguments>

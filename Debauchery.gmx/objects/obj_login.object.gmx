@@ -35,6 +35,7 @@ if (file_exists(file)){
     p = ini_read_string("Account", "password", "");
     ini_close();
     if(p_inp == p){
+        global.user = u_inp;
         room_goto(rm_title);
     }
 }
